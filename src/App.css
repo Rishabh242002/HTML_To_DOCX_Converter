@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+.brandName {
+  font-family: "Pacifico", cursive;
+  margin: 0px;
+}
+.navbar {
+  height: 3%;
+  padding: 0.25% 0%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: white;
+  border-bottom: 0.5px solid #cccccc;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  margin-top: 25px;
+  height: 35vh;
+  padding-bottom: 25px;
+  border-bottom: #cccccc 1px solid;
+}
+
+.innercontainer {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px auto;
+  background-color: rgb(86, 181, 248);
+  border-radius: 15px;
+}
+
+.docxlogo {
+  height: 50px;
+  display: block;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  width: 97%;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+  border: 2px dotted white;
+  border-radius: 15px;
+}
+.label {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.25) 100%;
+  border-radius: 15px;
+}
+
+.hidden {
+  display: none;
+}
+.labelCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 30%;
+}
+.btn {
+  width: 60%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.error {
+  color: red;
+  /* text-align: center; */
+  margin: 10px auto;
+}
+
+.pdContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  padding-top: 40px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.downBtn {
+  width: 80%;
+  background-color: #0D6EFD;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: 1px solid black;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.downBtn a {
+  text-decoration: none;
+  color: inherit;
+}
+.downBtn:hover {
+  background-color: rgba(5, 2, 206, 0.944);
+  color: white;
+}
+
+.downloadOption {
+  width: 30vw;
+  font-weight: bold;
+  border-left: 1px #cccccc solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.set {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+  cursor: pointer;
+  background-color: transparent;
+  width: 80%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+  gap: 10px;
+}
+
+.transformer {
+  padding: 70px;
+}
+
+.transformer-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.transformer-description {
+  margin-left: 10px;
+  padding: 30px;
+  text-align: left;
+}
+
+ol li {
+  margin: 17px 0px;
+  padding-left: 15px;
+}
